@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>⚡︎ As7Aswin</title>
+
+<meta name="description" content="Official website of As7Aswin - Student, Gamer & Creator">
+<meta name="keywords" content="As7Aswin,Gaming,Retro,Github,Profile,Student">
+<meta name="theme-color" content="#0f0f0f">
+
+<link rel="icon" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- LOADER -->
+<!-- ========================= -->
+
+<div id="loader">
+
+<div class="loader-logo">
+⚡︎
+</div>
+
+<div class="loader-text">
+Loading...
+</div>
+
+<div class="loader-bar">
+<div class="loader-fill"></div>
+</div>
+
+</div>
+
+<!-- Floating Pixels -->
+
+<div class="pixels">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<!-- ========================= -->
+<!-- NAVBAR -->
+<!-- ========================= -->
+
+<nav>
+
+<div class="logo">
+⚡︎ As7Aswin
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#games">Gaming</a></li>
+
+<li><a href="#links">Links</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<!-- ========================= -->
+<!-- HERO -->
+<!-- ========================= -->
+
+<section id="home" class="hero">
+
+<div class="hero-left">
+
+<h1>
+
+WELCOME TO
+
+<span>⚡︎ AS7ASWIN</span>
+
+</h1>
+
+<p>
+
+Student.
+Gamer.
+Creator.
+
+Leveling up life one quest at a time.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#links" class="btn yellow">
+
+<i class="fa-solid fa-gamepad"></i>
+
+My Links
+
+</a>
+
+<a href="#games" class="btn cyan">
+
+<i class="fa-solid fa-ghost"></i>
+
+Gaming
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="profile-card">
+
+<img src="assets/profile.png" alt="Profile">
+
+<h2>As7Aswin</h2>
+
+<span>🎮 Student Gamer</span>
+
+<div class="stats">
+
+<div>
+
+<h3>999+</h3>
+
+<p>XP</p>
+
+</div>
+
+<div>
+
+<h3>7</h3>
+
+<p>Lives</p>
+
+</div>
+
+<div>
+
+<h3>∞</h3>
+
+<p>Dreams</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- ABOUT -->
+<!-- ========================= -->
+
+<section id="about">
+
+<div class="section-title">
+
+ABOUT ME
+
+</div>
+
+<div class="about-box">
+
+<p>
+
+Hey! I'm <b>As7Aswin</b>.
+
+I'm a student who loves gaming, coding, retro aesthetics and creating cool things on the internet.
+
+When I'm not studying, you'll probably find me grinding games or working on my next project.
+
+</p>
+
+<div class="fun-box">
+
+🎮 Fun Fact:
+I press "Save" after every two lines of code.
+
+</div>
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!-- GAMING -->
+<!-- ========================= -->
+
+<section id="games">
+
+<h2 class="section-title">
+MY GAMING WORLD
+</h2>
+
+<div class="game-grid">
+
+<div class="game-card">
+
+<div class="game-icon">🎮</div>
+
+<h3>PC Gaming</h3>
+
+<p>
+Story games, FPS, Racing and open-world adventures.
+</p>
+
+</div>
+
+<div class="game-card">
+
+<div class="game-icon">⚔️</div>
+
+<h3>Favourite Genres</h3>
+
+<p>
+Open World • Action • Horror • Adventure
+</p>
+
+</div>
+
+<div class="game-card">
+
+<div class="game-icon">🏆</div>
+
+<h3>Achievements</h3>
+
+<p>
+Grinding every level until 100% completion.
+</p>
+
+</div>
+
+<div class="game-card">
+
+<div class="game-icon">👾</div>
+
+<h3>Current Mood</h3>
+
+<p id="gameMood">
+Loading today's mood...
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- RETRO SEARCH -->
+<!-- ========================= -->
+
+<section id="search">
+
+<h2 class="section-title">
+SEARCH MY HUB
+</h2>
+
+<div class="search-box">
+
+<input
+id="searchInput"
+type="text"
+placeholder="Search games, links, projects..."
+>
+
+<button id="searchBtn">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+
+</div>
+
+<div id="searchResults"></div>
+
+</section>
+
+<!-- ========================= -->
+<!-- LINKS -->
+<!-- ========================= -->
+
+<section id="links">
+
+<h2 class="section-title">
+
+MY LINKS
+
+</h2>
+
+<div class="links-grid">
+
+<a href="#" class="link-card">
+
+<i class="fa-brands fa-instagram"></i>
+
+Instagram
+
+</a>
+
+<a href="#" class="link-card">
+
+<i class="fa-brands fa-youtube"></i>
+
+YouTube
+
+</a>
+
+<a href="#" class="link-card">
+
+<i class="fa-brands fa-github"></i>
+
+GitHub
+
+</a>
+
+<a href="#" class="link-card">
+
+<i class="fa-brands fa-discord"></i>
+
+Discord
+
+</a>
+
+<a href="#" class="link-card">
+
+<i class="fa-solid fa-gamepad"></i>
+
+Steam
+
+</a>
+
+<a href="#" class="link-card">
+
+<i class="fa-solid fa-link"></i>
+
+More
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- RETRO TERMINAL -->
+<!-- ========================= -->
+
+<section id="terminal">
+
+<h2 class="section-title">
+
+RETRO TERMINAL
+
+</h2>
+
+<div class="terminal">
+
+<p>> Booting As7OS...</p>
+
+<p>> Loading gamer profile...</p>
+
+<p>> Detecting skills...</p>
+
+<p>> Success.</p>
+
+<p class="green">
+
+Welcome back Player ⚡︎
+
+</p>
+
+</div>
+
+  </section>
+  <!-- ========================= -->
+<!-- CONTACT -->
+<!-- ========================= -->
+
+<section id="contact">
+
+    <h2 class="section-title">
+        CONTACT
+    </h2>
+
+    <div class="contact-box">
+
+        <h3>Let's Connect 🚀</h3>
+
+        <p>
+            Whether it's gaming, coding or just saying hi,
+            feel free to reach out!
+        </p>
+
+        <a href="mailto:your@email.com" class="btn yellow">
+            <i class="fa-solid fa-envelope"></i>
+            Email Me
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FUN POPUP -->
+<!-- ========================= -->
+
+<div id="retroPopup" class="popup">
+
+    <div class="popup-box">
+
+        <div class="popup-icon">
+            👾
+        </div>
+
+        <h2>Achievement Unlocked!</h2>
+
+        <p>
+            You explored the entire website!
+            <br><br>
+            +500 XP ⚡
+        </p>
+
+        <button id="closePopup">
+            Continue
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        ⚡︎ AS7ASWIN
+    </div>
+
+    <p>
+
+        Student • Gamer • Creator
+
+    </p>
+
+    <div class="footer-icons">
+
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-discord"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-youtube"></i>
+        </a>
+
+    </div>
+
+    <small>
+
+        Made with ❤️, Coffee ☕ and Bugs 🐛
+
+    </small>
+
+</footer>
+
+<!-- CRT Overlay -->
+
+<div class="crt"></div>
+
+<!-- Pixel Cursor -->
+
+<div id="cursor"></div>
+
+<!-- Scripts -->
+
+<script src="search-data.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
