@@ -6,23 +6,13 @@
 // Loader
 
 window.addEventListener("load", () => {
-
     const loader = document.getElementById("loader");
 
+    if (!loader) return;
+
     setTimeout(() => {
-
-        loader.style.opacity = "0";
-
-        loader.style.pointerEvents = "none";
-
-        setTimeout(() => {
-
-            loader.style.display = "none";
-
-        }, 600);
-
+        loader.style.display = "none";
     }, 1800);
-
 });
 
 // ==========================================
