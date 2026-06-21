@@ -1478,6 +1478,8 @@ opacity:1;
 
 text-shadow:0 0 10px var(--yellow);
 
+}#loader{
+    transition:opacity .6s;
 }
 
 50%{
